@@ -27,9 +27,9 @@ const getStatusMessage = (status: number | undefined) => {
     case 1:
       return "";
     case 2:
-      return "You suck at this :D";
+      return "Failed!";
     case 3:
-      return "Sometimes you win :O";
+      return "Success!";
     case 4:
       return "Reset!";
     default:
@@ -211,7 +211,7 @@ const RoofRunning: FC = () => {
             className="
                             [outline:2px_solid_rgb(94_93_93)]
                             bg-radient-circle-c
-                            from-[rgb(22_40_52/0.651)] to-[rgb(22_40_52)]
+                            from-[rgb(27_27_27/0.651)] to-[rgb(27_27_27)]
 
                             *:whitespace-nowrap
                             *:absolute

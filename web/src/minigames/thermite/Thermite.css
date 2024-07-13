@@ -24,11 +24,11 @@
 }
 
 .thermite .square[data-status="full"] {
-  background: linear-gradient(to bottom, #38a2e5, #234e52);
+  background: linear-gradient(to bottom, #d3b42a, #74511f);
 }
 
 .thermite .square[data-status="half"] {
-  background: linear-gradient(to bottom, #a0aec0, #2d3748);
+  background: linear-gradient(to bottom, #88898a, #555352);
 }
 
 .thermite .square[data-status="fail"] {
@@ -99,8 +99,8 @@
 .thermite .background {
   background: radial-gradient(
     circle,
-    #121d23,
-    #0b161c
+    #121212,
+    #292929
   ); /* Replace with your radial gradient */
   position: absolute;
   width: 100%;

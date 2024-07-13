@@ -38,7 +38,7 @@ const Button: React.FC<ButtonProps> = ({
       color === "purple"
         ? "bg-vivid-violet-600/25 text-vivid-violet-600 enabled:hover:bg-vivid-violet-600/50"
         : color === "green"
-        ? "bg-turquoise-400/25 text-turquoise-400 enabled:hover:bg-turquoise-400/50"
+        ? "bg-old-gold-500 text-old-gold-950 enabled:hover:bg-old-gold-600"
         : ""
     ),
     "aria-label": label || children?.toString(),

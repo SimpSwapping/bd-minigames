@@ -98,9 +98,9 @@ export const getStatusMessage = (status: number | undefined) => {
     case 1:
       return "";
     case 2:
-      return "You suck at this :D";
+      return "Failed!";
     case 3:
-      return "Sometimes you win :O";
+      return "Success!";
     case 4:
       return "Reset!";
     default:

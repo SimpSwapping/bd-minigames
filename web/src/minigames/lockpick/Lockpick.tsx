@@ -27,9 +27,9 @@ const getStatusMessage = (status: number | undefined) => {
     case 1:
       return "";
     case 2:
-      return "The lockpick bent out of shape.";
+      return "Failed!";
     case 3:
-      return "The lock was picked successfully.";
+      return "Success!";
     case 4:
       return "Reset!";
     default:
@@ -337,7 +337,7 @@ const Lockpick = () => {
                     aspect-square
                     max-h-full max-w-full
                     rounded-lg
-                    bg-[rgb(22_40_52)]
+                    bg-[rgb(27_27_27)]
                     flex items-center justify-center
                     relative
                 `,

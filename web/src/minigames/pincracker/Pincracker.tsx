@@ -25,9 +25,9 @@ const getStatusMessage = (status: number | undefined) => {
     case 1:
       return "";
     case 2:
-      return "You suck at this :D";
+      return "Failed!";
     case 3:
-      return "Sometimes you win :O";
+      return "Success!";
     case 4:
       return "Reset!";
     default:
@@ -292,7 +292,7 @@ const Pincracker: FC = () => {
         className="
             h-32 w-[600px] max-w-full
             rounded-lg
-            bg-[rgb(22_40_52)]
+            bg-[rgb(27_27_27)]
             flex items-center justify-between
             text-white text-5xl
           "

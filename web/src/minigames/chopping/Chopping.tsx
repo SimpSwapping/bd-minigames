@@ -22,9 +22,9 @@ const getStatusMessage = (status: number | undefined) => {
     case 1:
       return "";
     case 2:
-      return "You suck at this :D";
+      return "Failed!";
     case 3:
-      return "Sometimes you win :O";
+      return "Success!";
     case 4:
       return "Reset!";
     default:
@@ -215,7 +215,7 @@ const Chopping: FC = () => {
         className="
                 h-max w-max max-w-full
                 rounded-lg
-                bg-[rgb(22_40_52)]
+                bg-[rgb(27_27_27)]
                 flex items-center justify-center
                 text-white text-5xl
                 p-2

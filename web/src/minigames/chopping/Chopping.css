@@ -119,8 +119,8 @@
   font-size: 2rem;
   width: var(--letter-size);
   height: var(--letter-size);
-  color: rgb(112, 193, 255);
-  border: 0.125rem solid rgba(112, 193, 255, 0.4);
+  color: rgb(211, 180, 42);
+  border: 0.125rem solid rgba(211, 180, 42, 0.4);
   border-radius: 5px;
   z-index: 1;
 }

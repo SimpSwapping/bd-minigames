@@ -131,7 +131,7 @@ export default function WordMemory() {
         className="
                 h-32 w-[750px] max-w-full
                 rounded-lg
-                bg-[rgb(22_40_52)]
+                bg-[rgb(27_27_27)]
                 flex items-center justify-center
                 text-white text-5xl
             "

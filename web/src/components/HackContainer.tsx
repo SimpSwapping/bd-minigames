@@ -130,7 +130,7 @@ const HackContainer: FC<HackContainerProps> = ({
                     relative
                     p-3
                     flex flex-col justify-center
-                    bg-[rgb(7_19_32)]
+                    bg-[rgb(18_18_18)]
                 "
         >
           {/* Header */}
@@ -152,8 +152,8 @@ const HackContainer: FC<HackContainerProps> = ({
                 className="
                                 text-lg
                                 sm:text-2xl
-                                text-spring-green-300
-                                [text-shadow:0_0_40px_rgb(162_216_250)]
+                                text-old-gold-500
+                                [text-shadow:0_0_40px_rgb(237_232_155)]
                             "
               >
                 {/*Originally, text shadow was 2.1px, but it looks much bigger on nopixel*/}
@@ -163,7 +163,7 @@ const HackContainer: FC<HackContainerProps> = ({
                 className="
                                 text-xs
                                 sm:text-base
-                                text-[rgb(142_142_142)]"
+                                text-[rgb(225_217_209)]"
               >
                 {description}
               </p>
@@ -174,7 +174,7 @@ const HackContainer: FC<HackContainerProps> = ({
                   icon={faGear}
                   className="
                                     size-full
-                                    text-gray-500
+                                    text-[rgb(225_217_209)]
                                     hover:rotate-90 hover:scale-110 hover:cursor-pointer
                                     transition-transform
                                 "
@@ -203,9 +203,9 @@ const HackContainer: FC<HackContainerProps> = ({
                             gap-2.5
                             absolute
                             text-white
-                            rounded
+                            rounded-lg
                             flex items-center justify-center
-                            w-full h-full left-0 top-0 bg-[rgb(0_0_0/0.7)] z-20
+                            w-full h-full left-0 top-0 bg-[rgba(0,0,0,0.55)] z-20
                         `
               )}
             >
@@ -233,7 +233,7 @@ const HackContainer: FC<HackContainerProps> = ({
                       : "hidden"
                   )}
                 ></i>
-                <p className="text-xl font-medium">{statusMessage}</p>
+                <p className="text-xl font-medium rounded-lg">{statusMessage}</p>
               </div>
             </div>
           )}
@@ -263,10 +263,10 @@ const HackContainer: FC<HackContainerProps> = ({
         </div>
         {/* Timer bar */}
         {/* TODO: Check BG color, before react rewrite was rgb(36 47 59)*/}
-        <div className="bg-[rgb(15_27_33)] flex w-full h-2.5">
+        <div className="bg-old-gold-950 flex w-full h-2.5">
           <div
             className={classNames(
-              "bg-[#38a2e5] w-full h-full [transition:width_linear]"
+              "bg-old-gold-300 w-full h-full [transition:width_linear]"
             )}
             style={{
               transitionDuration: status !== 1 ? "0ms" : `${frameSpeed}ms`,
